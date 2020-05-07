@@ -13,10 +13,13 @@
 		AE2621D2245CAA2200C2A6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2621D1245CAA2200C2A6C5 /* Assets.xcassets */; };
 		AE2621D5245CAA2200C2A6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2621D4245CAA2200C2A6C5 /* Preview Assets.xcassets */; };
 		AE2621D8245CAA2200C2A6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2621D6245CAA2200C2A6C5 /* LaunchScreen.storyboard */; };
+		AE2621E0245CC9D000C2A6C5 /* Classwork2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2621DF245CC9D000C2A6C5 /* Classwork2.swift */; };
+		AE5F9450245ED3BB003D07E8 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F944F245ED3BB003D07E8 /* array.swift */; };
+		AE5F9454245EDD3E003D07E8 /* classwork3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F9453245EDD3E003D07E8 /* classwork3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE2621C8245CAA2000C2A6C5 /* DayOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2621C8245CAA2000C2A6C5 /* DayOneClasswork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOneClasswork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2621CB245CAA2000C2A6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2621CD245CAA2000C2A6C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE2621CF245CAA2000C2A6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		AE2621D4245CAA2200C2A6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE2621D7245CAA2200C2A6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2621D9245CAA2200C2A6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2621DF245CC9D000C2A6C5 /* Classwork2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classwork2.swift; sourceTree = "<group>"; };
+		AE5F944F245ED3BB003D07E8 /* array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		AE5F9453245EDD3E003D07E8 /* classwork3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classwork3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		AE2621C9245CAA2000C2A6C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE2621C8245CAA2000C2A6C5 /* DayOne.app */,
+				AE2621C8245CAA2000C2A6C5 /* DayOneClasswork.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +65,9 @@
 				AE2621CB245CAA2000C2A6C5 /* AppDelegate.swift */,
 				AE2621CD245CAA2000C2A6C5 /* SceneDelegate.swift */,
 				AE2621CF245CAA2000C2A6C5 /* ContentView.swift */,
+				AE2621DF245CC9D000C2A6C5 /* Classwork2.swift */,
+				AE5F9453245EDD3E003D07E8 /* classwork3.swift */,
+				AE5F944F245ED3BB003D07E8 /* array.swift */,
 				AE2621D1245CAA2200C2A6C5 /* Assets.xcassets */,
 				AE2621D6245CAA2200C2A6C5 /* LaunchScreen.storyboard */,
 				AE2621D9245CAA2200C2A6C5 /* Info.plist */,
@@ -92,7 +101,7 @@
 			);
 			name = DayOne;
 			productName = DayOne;
-			productReference = AE2621C8245CAA2000C2A6C5 /* DayOne.app */;
+			productReference = AE2621C8245CAA2000C2A6C5 /* DayOneClasswork.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2621CC245CAA2000C2A6C5 /* AppDelegate.swift in Sources */,
+				AE5F9454245EDD3E003D07E8 /* classwork3.swift in Sources */,
+				AE5F9450245ED3BB003D07E8 /* array.swift in Sources */,
 				AE2621CE245CAA2000C2A6C5 /* SceneDelegate.swift in Sources */,
+				AE2621E0245CC9D000C2A6C5 /* Classwork2.swift in Sources */,
 				AE2621D0245CAA2000C2A6C5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +306,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bea.DayOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DayOneClasswork;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bea.DayOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DayOneClasswork;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
